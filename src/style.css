@@ -1,5 +1,75 @@
 body {
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 2px;
+}
+
+
+/* navbar */
+
+#navbar {
+    background-color: gray;
+}
+
+#navlink {
+    color: white;
+}
+
+#navlink_right {
+    float: left;
+}
+
+
+/* products */
+
+
+/* contact */
+
+#contact {
+    margin-top: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    color: white;
+}
+
+#inputEmail3,
+#floatingTextarea {
+    background: transparent;
+    color: white;
+}
+
+#submit-btn {
+    width: 200px;
+    margin: auto;
+}
+
+
+/* contact */
+
+#contact {
+    /* background-image: url("https://www.infowiz.co.in/wp-content/uploads/2014/07/contactus-banner.jpg"); */
+    background-color: black;
+    opacity: 0.70;
+}
+
+#contact_us_heading {
+    text-align: center;
+}
+
+
+/* footer */
+
+#footer {
+    margin-top: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(117, 117, 116);
+}
+
+#footer_copyright {
+    padding-top: 10px;
+    text-align: center;
 }

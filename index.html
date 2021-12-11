@@ -13,19 +13,20 @@
 <body>
     <!-- Navbar -->
     <div id="navbar">
+
         <ul class="nav justify-content-end">
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a id="navlink" class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
+                <a id="navlink" class="nav-link" href="#">About us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
+                <a id="navlink" class="nav-link" href="#">Products</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a id="navlink" class="nav-link" href="#">Contact</a>
             </li>
             <button type="button" class="btn btn-secondary">Corporate login</button>
         </ul>
@@ -106,8 +107,7 @@
                 </div>
             </div>
 
-            <!-- Contact -->
-            <div id="contact"></div>
+
             <div class="col">
                 <div class="card h-100">
                     <img src="/src/images/products_images/product_3.jpg" class="card-img-top" alt="...">
@@ -123,55 +123,71 @@
             </div>
         </div>
     </div>
-    <div id="constact">
 
+    <!-- Contact -->
+    <div id="contact">
         <form>
-            <div class="row mb-3">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail3">
-                </div>
+            <div class="card-body">
+                <h5 id="contact_us_heading" class="card-title">Contact us</h5>
             </div>
             <div class="row mb-3">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
                 <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword3">
+                    <input type="text" class="form-control" id="inputEmail3">
                 </div>
             </div>
+
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Mb</label>
+                <div class="col-sm-10">
+                    <input type="tel" class="form-control" id="inputEmail3">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Message</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                </div>
+            </div>
+
+
+
             <fieldset class="row mb-3">
-                <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-                <div class="col-sm-10">
-
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                <button id="submit-btn" type="submit" class="btn btn-primary">Submit</button>
         </form>
-        </div>
+    </div>
 
-        <div id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        Column
-                        <li>a</li>
-                        <li>b</li>
-                        <li>c</li>
-                    </div>
-                    <div class="col">
-                        Column
-                        <li>a</li>
-                        <li>b</li>
-                        <li>c</li>
-                    </div>
-                    <div class="col">
-                        Column
-                        <li>a</li>
-                        <li>b</li>
-                        <li>c</li>
-                    </div>
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Column
+                    <li>a</li>
+                    <li>b</li>
+                    <li>c</li>
+                </div>
+                <div class="col">
+                    Column
+                    <li>a</li>
+                    <li>b</li>
+                    <li>c</li>
+                </div>
+                <div class="col">
+                    Column
+                    <li>a</li>
+                    <li>b</li>
+                    <li>c</li>
                 </div>
             </div>
+
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="/src/app.js"></script>
+
+    </div>
+    <p id="footer_copyright">© | 2022 | Shital aqua</p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="/src/app.js"></script>
 </body>
 
 </html>
