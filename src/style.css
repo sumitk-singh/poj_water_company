@@ -2,6 +2,9 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 2px;
+    background-image: url("/src/images/other/background_img.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 
@@ -66,9 +69,9 @@ body {
     margin-top: 1%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url(/src/images/other/footer_background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(0, 92, 95);
+    opacity: 0.8;
+    color: white;
 }
 
 #footer_copyright {
