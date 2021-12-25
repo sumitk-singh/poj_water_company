@@ -11,7 +11,7 @@ body {
 /* navbar */
 
 #navbar {
-    background-color: gray;
+    background-color: rgb(0, 92, 95);
 }
 
 #navlink {
@@ -20,6 +20,21 @@ body {
 
 #navlink_right {
     float: left;
+}
+
+
+/* about us */
+
+#aboutUsTextSection {
+    background: rgb(0, 92, 95);
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+#aboutUsTextSection,
+p,
+li {
+    padding-left: 15px;
 }
 
 
@@ -60,6 +75,13 @@ body {
 
 #contact_us_heading {
     text-align: center;
+}
+
+
+/* testinomials */
+
+#testinomials {
+    background-color: white;
 }
 
 
