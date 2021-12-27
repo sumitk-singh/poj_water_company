@@ -22,6 +22,10 @@ body {
     float: left;
 }
 
+#navlink:hover {
+    background-color: rgb(3, 3, 3);
+}
+
 
 /* about us */
 
@@ -31,14 +35,24 @@ body {
     opacity: 0.8;
 }
 
-#aboutUsTextSection,
-p,
-li {
+#aboutUsTextData {
     padding-left: 15px;
 }
 
 
 /* products */
+
+#colorEffectText {
+    animation: color-change 1s infinite;
+    background-color: rgb(0, 92, 95);
+    color: white;
+}
+
+@keyframes color-change {
+    50% {
+        color: rgb(251, 255, 0);
+    }
+}
 
 
 /* contact */
@@ -80,7 +94,7 @@ li {
 
 /* testinomials */
 
-#testinomials {
+#testimonials {
     background-color: white;
 }
 
